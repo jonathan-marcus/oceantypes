@@ -1,0 +1,36 @@
+:root {
+  --ocean-blue: #0077be;
+  --light-blue: #e6f7ff;
+  --coral: #ff7f50;
+  --sand: #f5deb3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #e6f7ff, #b3e0ff);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  height: 100%;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: 2px solid var(--ocean-blue);
+  background-color: var(--ocean-blue);
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--ocean-blue);
+}
